@@ -1,4 +1,5 @@
-package org.example.service;
+package com.itstep.itlibrary.service;
+
 
 public interface HelperService {
     void doHelperJob(String helperTarget);

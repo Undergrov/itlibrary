@@ -1,4 +1,4 @@
-package org.example.service;
+package com.itstep.itlibrary.service;
 
 public interface SecondaryService {
     void doSecondaryJob();

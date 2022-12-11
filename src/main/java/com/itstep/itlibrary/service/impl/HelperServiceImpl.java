@@ -1,7 +1,9 @@
-package org.example.service.impl;
+package com.itstep.itlibrary.service.impl;
 
-import org.example.service.HelperService;
+import com.itstep.itlibrary.service.HelperService;
+import org.springframework.stereotype.Component;
 
+@Component
 public class HelperServiceImpl implements HelperService {
 
     public void doHelperJob(String helperTarget) {

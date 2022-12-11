@@ -1,8 +1,10 @@
-package org.example.service.impl;
+package com.itstep.itlibrary.service.impl;
 
-import org.example.service.HelperService;
-import org.example.service.SecondaryService;
+import com.itstep.itlibrary.service.HelperService;
+import com.itstep.itlibrary.service.SecondaryService;
+import org.springframework.stereotype.Component;
 
+@Component
 public class SecondaryServiceImpl implements SecondaryService {
     private final HelperService helperService;
 
